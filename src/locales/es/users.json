@@ -1,0 +1,18 @@
+{
+  "CLIENT_ALREADY_EXISTS": "El cliente ya existe para este usuario",
+  "CLIENT_NOT_FOUND": "Cliente no encontrado",
+  "CLIENT_NO_CHANGES": "No se realizaron cambios en el cliente",
+  
+  "USER_NOT_FOUND": "Usuario no encontrado",
+  "USER_NOT_DELETED": "El usuario no está eliminado",
+  "USER_NO_CHANGES": "No se realizaron cambios en el usuario",
+
+  "USERNAME_ALREADY_IN_USE": "El nombre de usuario ya está en uso",
+
+  "PROFILE_PICTURE_NOT_FOUND": "La foto de perfil no fue encontrada",
+  "PROFILE_PICTURE_PROCESSING": "La foto de perfil se encuentra en proceso",
+
+  "RECOVERY_TOKEN_ALREADY_SENT": "El token de recuperación ya fue enviado",
+  "RECOVERY_TOKEN_NOT_FOUND": "Token de recuperación no encontrado",
+  "RECOVERY_TOKEN_EXPIRED": "El token de recuperación ha expirado"
+}

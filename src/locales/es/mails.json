@@ -1,0 +1,59 @@
+{
+  "EMAIL_VERIFICATION": {
+    "TITLE": "Verificación de Correo Electrónico",
+    "SUBJECT": "Verifica Tu Cuenta",
+    "HTML": {
+      "HEADER": {
+        "TITLE": "¡Bienvenido a Nuestro Sitio Web!"
+      },
+      "BODY": {
+        "GREETING": "Hola,",
+        "CONTENT": "Gracias por registrarte en nuestra plataforma. Para completar tu registro y activar tu cuenta, por favor haz clic en el botón de abajo:",
+        "BUTTON": "Verificar Cuenta",
+        "LINK": "Si no puedes hacer clic en el botón, copia y pega el siguiente enlace en tu navegador:"
+      },
+      "FOOTER": {
+        "CONTENT": "Si no solicitaste esta verificación, puedes ignorar este correo.",
+        "SIGNATURE": "Atentamente, El Equipo de Soporte"
+      }
+    }
+  },
+  "RECOVER_ACCOUNT": {
+    "TITLE": "Recuperación de Cuenta",
+    "SUBJECT": "Recupera Tu Cuenta",
+    "HTML": {
+      "HEADER": {
+        "TITLE": "Recuperación de Cuenta"
+      },
+      "BODY": {
+        "GREETING": "Hola,",
+        "CONTENT": "Has solicitado recuperar el acceso a tu cuenta. Para continuar, por favor haz clic en el botón de abajo:",
+        "BUTTON": "Recuperar Cuenta",
+        "LINK": "Si no puedes hacer clic en el botón, copia y pega el siguiente enlace en tu navegador:"
+      },
+      "FOOTER": {
+        "CONTENT": "Si no solicitaste esta recuperación, puedes ignorar este correo.",
+        "SIGNATURE": "Atentamente, El Equipo de Soporte"
+      }
+    }
+  },
+  "RESET_PASSWORD": {
+    "TITLE": "Restablecimiento de Contraseña",
+    "SUBJECT": "Restablece Tu Contraseña",
+    "HTML": {
+      "HEADER": {
+        "TITLE": "Restablecimiento de Contraseña"
+      },
+      "BODY": {
+        "GREETING": "Hola,",
+        "CONTENT": "Hemos recibido una solicitud para restablecer tu contraseña. Para continuar, por favor haz clic en el botón de abajo:",
+        "BUTTON": "Restablecer Contraseña",
+        "LINK": "Si no puedes hacer clic en el botón, copia y pega el siguiente enlace en tu navegador:"
+      },
+      "FOOTER": {
+        "CONTENT": "Si no solicitaste este cambio, ignora este correo o contacta a nuestro equipo de soporte si tienes preguntas.",
+        "SIGNATURE": "Atentamente, El Equipo de Soporte"
+      }
+    }
+  }
+}

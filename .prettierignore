@@ -1,0 +1,4 @@
+src/generated
+src/locales
+node_modules
+dist

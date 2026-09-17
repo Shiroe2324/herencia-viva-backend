@@ -1,0 +1,6 @@
+{
+  "INTERNAL_SERVER_ERROR": "Error interno del servidor",
+  "INVALID_INPUT": "Validación fallida",
+  "THROTTLED": "Demasiadas solicitudes. Por favor, inténtelo de nuevo más tarde",
+  "NOT_FOUND": "Recurso no encontrado"
+}

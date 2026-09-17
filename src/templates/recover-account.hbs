@@ -1,0 +1,87 @@
+<html lang={{i18nLang}}>
+  <head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <title>{{t 'mails.RECOVER_ACCOUNT.TITLE'}}</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        margin: 0;
+        padding: 0;
+        color: #333;
+      }
+      .email-container {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        border: 1px solid #e4e4e4;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+      .email-header {
+        background-color: #2196f3;
+        color: #ffffff;
+        text-align: center;
+        padding: 20px;
+      }
+      .email-header h1 {
+        margin: 0;
+        font-size: 24px;
+      }
+      .email-body {
+        padding: 20px;
+      }
+      .email-body p {
+        line-height: 1.6;
+        font-size: 16px;
+      }
+      .email-footer {
+        text-align: center;
+        padding: 20px;
+        font-size: 14px;
+        color: #666;
+        background-color: #f9f9f9;
+      }
+      .btn {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #2196f3;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 4px;
+      }
+      .btn:hover {
+        background-color: #1976d2;
+      }
+      a {
+        color: #2196f3;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class='email-container'>
+      <div class='email-header'>
+        <h1>{{t 'mails.RECOVER_ACCOUNT.HTML.HEADER.TITLE'}}</h1>
+      </div>
+      <div class='email-body'>
+        <p>{{t 'mails.RECOVER_ACCOUNT.HTML.BODY.GREETING'}}</p>
+        <p>{{t 'mails.RECOVER_ACCOUNT.HTML.BODY.CONTENT'}}</p>
+        <a href='{{email-account-link}}' class='btn'>{{t 'mails.RECOVER_ACCOUNT.HTML.BODY.BUTTON'}}</a>
+        <p>{{t 'mails.RECOVER_ACCOUNT.HTML.BODY.LINK'}}</p>
+        <p><a href='{{email-account-link}}'>{{email-account-link}}</a></p>
+      </div>
+      <div class='email-footer'>
+        <p>{{t 'mails.RECOVER_ACCOUNT.HTML.FOOTER.CONTENT'}}</p>
+        <p>{{t 'mails.RECOVER_ACCOUNT.HTML.FOOTER.SIGNATURE'}}</p>
+      </div>
+    </div>
+  </body>
+</html>
